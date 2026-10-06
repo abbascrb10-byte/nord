@@ -1,0 +1,10 @@
+{
+  "name": "Claude Code Workspace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
+}
